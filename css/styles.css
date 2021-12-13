@@ -25,7 +25,7 @@ Colors:
 - Backgrounds - light gray #f7f9fd
 - Headings text - black #161223
 - Body text - dark gray #53575a
-- Buttons, icons - green #7dc22b
+- Buttons, icons - lightblue
 ******************************************/
 
 
@@ -147,7 +147,7 @@ a:hover {
 }
 
 .green {
-	color: #7dc22b;
+    color: lightblue;
 }
 
 .bg-gray {
@@ -155,44 +155,44 @@ a:hover {
 }
 
 .btn-solid-reg {
-	display: inline-block;
-	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #7dc22b;
-	border-radius: 4px;
-	background-color: #7dc22b;
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 0.875rem;
-	line-height: 0;
-	text-decoration: none;
-	transition: all 0.2s;
+    display: inline-block;
+    padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    background-color: lightblue;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
 }
 
-.btn-solid-reg:hover {
-	background-color: transparent;
-	color: #7dc22b; /* needs to stay here because of the color property of a tag */
-	text-decoration: none;
-}
+    .btn-solid-reg:hover {
+        background-color: transparent;
+        color: lightblue; /* needs to stay here because of the color property of a tag */
+        text-decoration: none;
+    }
 
 .btn-solid-lg {
-	display: inline-block;
-	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #7dc22b;
-	border-radius: 4px;
-	background-color: #7dc22b;
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 0.875rem;
-	line-height: 0;
-	text-decoration: none;
-	transition: all 0.2s;
+    display: inline-block;
+    padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    background-color: lightblue;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
 }
 
-.btn-solid-lg:hover {
-	background-color: transparent;
-	color: #7dc22b; /* needs to stay here because of the color property of a tag */
-	text-decoration: none;
-}
+    .btn-solid-lg:hover {
+        background-color: transparent;
+        color: lightblue; /* needs to stay here because of the color property of a tag */
+        text-decoration: none;
+    }
 
 .btn-outline-reg {
 	display: inline-block;
@@ -293,9 +293,9 @@ a:hover {
 	display: inline-block;
 	width: 100%;
 	height: 3.25rem;
-	border: 1px solid #7dc22b;
+	border: 1px solid lightblue;
 	border-radius: 4px;
-	background-color: #7dc22b;
+	background-color: lightblue;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -304,11 +304,11 @@ a:hover {
 	transition: all 0.2s;
 }
 
-.form-control-submit-button:hover {
-	border: 1px solid #7dc22b;
-	background-color: transparent;
-	color: #7dc22b;
-}
+    .form-control-submit-button:hover {
+        border: 1px solid lightblue;
+        background-color: transparent;
+        color: lightblue;
+    }
 
 
 /**********************/
@@ -378,7 +378,7 @@ a:hover {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #7dc22b;
+	color: lightblue;
 }
 
 /* Dropdown Menu */
@@ -415,7 +415,7 @@ a:hover {
 
 .navbar .dropdown-item:hover {
 	background-color: #161223;
-	color: #7dc22b;
+	color: lightblue;
 }
 
 .navbar .dropdown-divider {
@@ -434,7 +434,7 @@ a:hover {
 }
 
 .navbar .fa-stack-2x {
-	color: #7dc22b;
+	color: lightblue;
 	transition: all 0.2s ease;
 }
 
@@ -448,7 +448,7 @@ a:hover {
 }
 
 .navbar .fa-stack:hover .fa-stack-1x {
-	color: #7dc22b;
+	color: lightblue;
 }
 
 .navbar .navbar-toggler {
@@ -520,16 +520,16 @@ a:hover {
 	padding: 0;
 }
 
-.cards-1 .card-icon {
-	width: 90px;
-	height: 90px;
-	margin-right: auto;
-	margin-bottom: 2rem;
-	margin-left: auto;
-	border-radius: 50%;
-	background-color: #7dc22b;
-	text-align: center;
-}
+    .cards-1 .card-icon {
+        width: 90px;
+        height: 90px;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        border-radius: 50%;
+        background-color: lightblue;
+        text-align: center;
+    }
 
 .cards-1 .card-icon .fas {
 	color: #ffffff;
@@ -661,11 +661,11 @@ a:hover {
 	font-size: 0.875rem;
 }
 
-.filter .button:hover,
-.filter .button.is-checked {
-	background-color: #7dc22b;
-	color: #ffffff;
-}
+    .filter .button:hover,
+    .filter .button.is-checked {
+        background-color: lightblue;
+        color: #ffffff;
+    }
 
 .filter .grid {
 	margin-right: auto;
@@ -786,9 +786,9 @@ a:hover {
 	color: #ffffff;
 }
 
-.form-1 .list-unstyled .fas {
-	color: #7dc22b;
-}
+    .form-1 .list-unstyled .fas {
+        color: lightblue;
+    }
 
 .form-1 .form-control-input,
 .form-1 .form-control-textarea {
@@ -816,13 +816,13 @@ a:hover {
 	margin-bottom: 4rem;
 }
 
-.counter .purecounter {
-	margin-bottom: 1.5rem;
-	color: #7dc22b;
-	font-weight: 600;
-	font-size: 5rem;
-	line-height: 3rem;
-}
+    .counter .purecounter {
+        margin-bottom: 1.5rem;
+        color: lightblue;
+        font-weight: 600;
+        font-size: 5rem;
+        line-height: 3rem;
+    }
 
 .counter .counter-info {
 	color: #161223;
@@ -880,9 +880,9 @@ a:hover {
 	transition: all 0.2s ease;
 }
 
-.footer .footer-col.third .fa-stack:hover .fa-stack-2x {
-    color: #7dc22b;
-}
+    .footer .footer-col.third .fa-stack:hover .fa-stack-2x {
+        color: lightblue;
+    }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-1x {
 	color: #ffffff;
@@ -971,9 +971,9 @@ a:hover {
 	font-size: 1.125rem;
 }
 
-.ex-cards-1 .card .fa-stack-2x {
-	color: #7dc22b;
-}
+    .ex-cards-1 .card .fa-stack-2x {
+        color: lightblue;
+    }
 
 .ex-cards-1 .card .fa-stack-1x {
 	width: 2em;
@@ -1059,7 +1059,6 @@ a:hover {
 	/* Navigation */
 	.navbar {
 		padding-top: 1.75rem;
-		background-color: transparent;
 		box-shadow: none;
 		transition: all 0.2s;
 	}
@@ -1264,7 +1263,7 @@ a:hover {
 	
 	/* General Styles */
 	.container {
-		max-width: 1140px;
+		max-width: 1700px;
 	}
 	/* end of general styles */
 	
